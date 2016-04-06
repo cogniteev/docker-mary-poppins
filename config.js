@@ -22,6 +22,7 @@ module.exports = function (poppins) {
     }
   };
 
-  // load plugins from the cwd
-  poppins.theUsualPlease();
+  poppins.couldYouPlease('pr-checklist');
+  poppins.couldYouPlease('check-commit');
+  poppins.couldYouPlease('label');
 };

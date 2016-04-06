@@ -14,4 +14,5 @@ RUN npm install                 \
         poppins-pr-vote         \
         poppins-prioritize --save
 ADD config.js /var/src/config.js
+EXPOSE 80
 CMD mary-poppins start config.js

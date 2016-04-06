@@ -22,7 +22,7 @@ module.exports = function (poppins) {
     }
   };
 
-  poppins.couldYouPlease('pr-checklist');
-  poppins.couldYouPlease('check-commit');
-  poppins.couldYouPlease('label');
+  poppins.couldYouPlease('poppins-pr-checklist');
+  poppins.couldYouPlease('poppins-check-commit');
+  poppins.couldYouPlease('poppins-label');
 };

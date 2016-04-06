@@ -19,7 +19,6 @@ RUN npm install                 \
         poppins-deadline        \
         poppins-exec            \
         poppins-label           \
-        poppins-mock            \
         poppins-pin             \
         poppins-pr-checklist    \
         poppins-pr-vote         \

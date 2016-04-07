@@ -1,11 +1,10 @@
 #!/bin/sh
 
 is_hook_installed() {
-  url=`grep '^[[:space:]]*url:' config.js | sed "s/.*'\(.*\)'.*/\1/"`
   mary-poppins hooks config.js \
     | grep '^[[:space:]]*url:' \
     | awk '{print $2}' \
-    | grep -q "$url"
+    | grep -q "$HOOK_URL"
 }
 if ! is_hook_installed ; then
   echo "Installing webhook..."

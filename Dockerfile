@@ -31,6 +31,7 @@ RUN npm install                 \
         poppins-prioritize      \
         https://github.com/cogniteev/poppins-configure-label.git --save
 
-ADD config.js /var/src/config.js
+ADD config.js /var/src/
+ADD start.sh /var/src/
 EXPOSE 80
-CMD mary-poppins start config.js
+CMD ./start.sh

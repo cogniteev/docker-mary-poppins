@@ -1,5 +1,12 @@
 FROM node:4.4.2
 
+# Install mary-poppins with a custom version of metahub
+RUN git clone https://github.com/btford/mary-poppins /var/mary-poppins \
+ && cd /var/mary-poppins \
+ && git checkout v0.3.1
+ADD npm-shrinkwrap.json /var/mary-poppins/
+RUN cd /var/mary-poppins && npm install -g
+
 # Install of packages starting with "poppins-"
 #
 # https://github.com/btford/poppins-check-cla
@@ -13,7 +20,6 @@ FROM node:4.4.2
 # https://github.com/btford/poppins-prioritize
 
 WORKDIR /var/src
-RUN npm install -g mary-poppins
 RUN npm install                 \
         poppins-check-commit    \
         poppins-deadline        \

@@ -22,7 +22,9 @@ RUN npm install                 \
         poppins-pin             \
         poppins-pr-checklist    \
         poppins-pr-vote         \
-        poppins-prioritize --save
+        poppins-prioritize      \
+        https://github.com/cogniteev/poppins-configure-label.git --save
+
 ADD config.js /var/src/config.js
 EXPOSE 80
 CMD mary-poppins start config.js

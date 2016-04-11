@@ -147,7 +147,7 @@
     "metahub": {
       "version": "0.6.2",
       "from": "git+https://github.com/cogniteev/metahub.git",
-      "resolved": "git+https://github.com/cogniteev/metahub.git#79dc6195817f8701f441b608bf2ae948719faa53",
+      "resolved": "git+https://github.com/cogniteev/metahub.git#b0b152dd08d648b9066a90a65f20cbd6f6b6dc8a",
       "dependencies": {
         "lodash": {
           "version": "1.3.1",

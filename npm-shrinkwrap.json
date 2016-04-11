@@ -130,9 +130,9 @@
       }
     },
     "github": {
-      "version": "0.1.16",
-      "from": "github@>=0.1.10 <0.2.0",
-      "resolved": "https://registry.npmjs.org/github/-/github-0.1.16.tgz"
+      "version": "0.2.4",
+      "from": "github@0.2.4",
+      "resolved": "https://registry.npmjs.org/github/-/github-0.2.4.tgz"
     },
     "hookshot": {
       "version": "0.0.2",

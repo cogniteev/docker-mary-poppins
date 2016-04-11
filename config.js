@@ -24,6 +24,5 @@ module.exports = function (poppins) {
 
   poppins.couldYouPlease('poppins-pr-checklist');
   poppins.couldYouPlease('poppins-check-commit');
-  poppins.couldYouPlease('poppins-label');
   poppins.couldYouPlease('poppins-configure-label');
 };

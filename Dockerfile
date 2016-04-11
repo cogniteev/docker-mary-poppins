@@ -13,7 +13,6 @@ RUN cd /var/mary-poppins && npm install -g
 # https://github.com/btford/poppins-check-commit
 # https://www.npmjs.com/package/poppins-deadline
 # https://github.com/btford/poppins-exec
-# https://github.com/btford/poppins-label
 # https://github.com/btford/poppins-pin
 # https://github.com/btford/poppins-pr-checklist
 # https://github.com/frapontillo/poppins-pr-vote
@@ -24,7 +23,6 @@ RUN npm install                 \
         poppins-check-commit    \
         poppins-deadline        \
         poppins-exec            \
-        poppins-label           \
         poppins-pin             \
         poppins-pr-checklist    \
         poppins-pr-vote         \
